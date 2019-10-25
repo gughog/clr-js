@@ -1,0 +1,26 @@
+{
+  "name": "clr",
+  "version": "0.1.0",
+  "description": "A simple library to insert colors and styles to the terminal.",
+  "main": "clr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gughog/clr.git"
+  },
+  "keywords": [
+    "colors",
+    "bash-colors",
+    "bold",
+    "style",
+    "terminal"
+  ],
+  "author": "@gughog <gustavogiovanne3@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gughog/clr/issues"
+  },
+  "homepage": "https://github.com/gughog/clr#readme"
+}
