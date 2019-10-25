@@ -1,7 +1,7 @@
 {
   "name": "clr",
   "version": "0.1.0",
-  "description": "A simple library to insert colors and styles to the terminal.",
+  "description": "A simple library to insert textual colors and styles to the terminal output.",
   "main": "clr.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "style",
     "terminal"
   ],
-  "author": "@gughog <gustavogiovanne3@gmail.com>",
+  "author": "gughog <gustavogiovanne3@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gughog/clr/issues"
