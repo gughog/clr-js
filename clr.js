@@ -1,17 +1,18 @@
 // colors:
-let white = "\x1b[37m"
-let black = "\x1b[30m"
-let red = "\x1b[31m"
-let green = "\x1b[32m"
-let blue = "\x1b[34m"
-let yellow = "\x1b[33m"
+let white   = "\x1b[37m"
+let black   = "\x1b[30m"
+let red     = "\x1b[31m"
+let green   = "\x1b[32m"
+let blue    = "\x1b[34m"
+let yellow  = "\x1b[33m"
 let magenta = "\x1b[35m"
-let cyan = "\x1b[36m"
+let cyan    = "\x1b[36m"
 
 // Specials
-let bolds = ["\033[1m", "\033[0m"]
+let bolds     = ["\033[1m", "\033[0m"]
 let underline = ["\033[4m", "\033[0m"]
-
+let darky     = ["\033[2m", "\033[0m"]
+let stroke    = ["\033[9m", "\033[0m"]
 // colors:
 let bwhite = "\x1b[47m"
 let bblack = "\x1b[40m"
@@ -43,13 +44,12 @@ module.exports =  {
   bcyan:    (str) => `${bcyan}${str}\x1b[0m`,
   // Specials
   bold :    (colorstr) => `${bolds[0]}${colorstr}${bolds[1]}`,
-  uline:    (colorstr) => `${underline[0]}${colorstr}${underline[1]}`
+  uline:    (colorstr) => `${underline[0]}${colorstr}${underline[1]}`,
+  darky:    (colorstr) => `${darky[0]}${colorstr}${darky[1]}`,
+  stroke:   (colorstr) => `${stroke[0]}${colorstr}${stroke[1]}`
 }
 
 /*
 TODO:
 - More colors;
-- Bold Colors;
-- Background colors;
-- Underlined colors;
 */
