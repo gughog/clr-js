@@ -77,5 +77,7 @@ module.exports =  {
 /*
 TODO:
 - More colors;
-- Two Variant colors
+- Two Variant colors;
+- Change multiple function calls to a more clean
+  way. (e.g.: "clr.blue(str, {paramObj})"
 */
