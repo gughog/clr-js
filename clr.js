@@ -32,6 +32,10 @@ let byellow  = ["\x1b[43m", "\x1b[0m"]
 let bmagenta = ["\x1b[45m", "\x1b[0m"]
 let bcyan    = ["\x1b[46m", "\x1b[0m"]
 
+/** 
+ * Colletion of methods for clr.js library.
+ * @module Clr.js
+ */
 module.exports =  {
   /**
    * Color method that applies to a string.

@@ -31,6 +31,10 @@ const byellow  = ["\x1b[43m", "\x1b[0m"]
 const bmagenta = ["\x1b[45m", "\x1b[0m"]
 const bcyan    = ["\x1b[46m", "\x1b[0m"]
 
+/**
+ * Colletion of methods for clr.ts library.
+ * @module Clr.ts
+ */
 const clr =  {
   /**
    * Color method that applies to a string.
