@@ -1,4 +1,8 @@
-// colors:
+/** Clr.js - Simple CLI colors */
+
+/**
+ * Text color definition.
+ */
 let white   = ["\x1b[37m", "\x1b[0m"]
 let black   = ["\x1b[30m", "\x1b[0m"]
 let red     = ["\x1b[31m", "\x1b[0m"]
@@ -8,12 +12,17 @@ let yellow  = ["\x1b[33m", "\x1b[0m"]
 let magenta = ["\x1b[35m", "\x1b[0m"]
 let cyan    = ["\x1b[36m", "\x1b[0m"]
 
-// Specials
+/**
+ * Special text formatting definition.
+ */
 let bolds     = ["\033[1m", "\033[0m"]
 let underline = ["\033[4m", "\033[0m"]
 let darky     = ["\033[2m", "\033[0m"]
 let stroke    = ["\033[9m", "\033[0m"]
-// colors:
+
+/**
+ * Background colors definition.
+ */
 let bwhite   = ["\x1b[47m", "\x1b[0m"]
 let bblack   = ["\x1b[40m", "\x1b[0m"]
 let bred     = ["\x1b[41m", "\x1b[0m"]
@@ -24,7 +33,11 @@ let bmagenta = ["\x1b[45m", "\x1b[0m"]
 let bcyan    = ["\x1b[46m", "\x1b[0m"]
 
 module.exports =  {
-  // Colors
+  /**
+   * Color method that applies to a string.
+   * @function
+   * @param {string} str - The desired string to apply the color.
+   */
   white:   (str) => `${white[0]}${str}${white[1]}`,
   black:   (str) => `${black[0]}${str}${black[1]}`,
   red:     (str) => `${red[0]}${str}${red[1]}`,
@@ -33,7 +46,11 @@ module.exports =  {
   yellow:  (str) => `${yellow[0]}${str}${yellow[1]}`,
   magenta: (str) => `${magenta[0]}${str}${magenta[1]}`,
   cyan:    (str) => `${cyan[0]}${str}${cyan[1]}`,
-  // Background colors
+  /**
+   * Background color method that applies to a string.
+   * @function
+   * @param {string} str - The desired string to apply the background color.
+   */
   bwhite:   (str) => `${bwhite[0]}${str}${bwhite[1]}`,
   bblack:   (str) => `${bblack[0]}${str}${bblack[1]}`,
   bred:     (str) => `${bred[0]}${str}${bred[1]}`,
@@ -42,7 +59,11 @@ module.exports =  {
   byellow:  (str) => `${byellow[0]}${str}${byellow[1]}`,
   bmagenta: (str) => `${bmagenta[0]}${str}${bmagenta[1]}`,
   bcyan:    (str) => `${bcyan[0]}${str}${bcyan[1]}`,
-  // Specials
+  /**
+   * Special text formatting method that applies to a string.
+   * @function
+   * @param {string} colorstr - The desired colorized string to apply the formatting.
+   */
   bold :    (colorstr) => `${bolds[0]}${colorstr}${bolds[1]}`,
   uline:    (colorstr) => `${underline[0]}${colorstr}${underline[1]}`,
   darky:    (colorstr) => `${darky[0]}${colorstr}${darky[1]}`,
