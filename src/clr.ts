@@ -35,7 +35,7 @@ const byellow = ['\x1b[43m', '\x1b[0m'];
  * Colletion of methods for clr.ts library.
  * @module Clr.ts
  */
-export const clr = {
+const clr = {
   /**
    * Color method that applies to a string.
    * @function
@@ -72,6 +72,8 @@ export const clr = {
   stroke: (colorstr: string) => `${stroke[0]}${colorstr}${stroke[1]}`,
   uline: (colorstr: string) => `${underline[0]}${colorstr}${underline[1]}`,
 };
+
+export default clr;
 
 /*
 TODO:
