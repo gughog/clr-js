@@ -1,10 +1,11 @@
 {
-  "name": "clr",
+  "name": "clr.js",
   "version": "0.1.0",
-  "description": "A simple library to insert textual colors and styles to the terminal output.",
+  "description": "The dead-simple terminal colors for Node.js.",
   "main": "clr.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/gughog/clr/issues"
   },
-  "homepage": "https://github.com/gughog/clr#readme"
+  "homepage": "https://github.com/gughog/clr#readme",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
 }

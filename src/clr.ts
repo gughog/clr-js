@@ -35,7 +35,7 @@ const bcyan    = ["\x1b[46m", "\x1b[0m"]
  * Colletion of methods for clr.ts library.
  * @module Clr.ts
  */
-const clr =  {
+export const clr =  {
   /**
    * Color method that applies to a string.
    * @function
@@ -73,7 +73,6 @@ const clr =  {
   stroke:   (colorstr:string) => `${stroke[0]}${colorstr}${stroke[1]}`
 }
 
-export default clr
 /*
 TODO:
 - More colors;

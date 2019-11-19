@@ -1,4 +1,4 @@
-# Clr.js - Node Terminal Colors
+# Clr.js - The dead-simple terminal colors for Node.js.
 
 Clr is a dead simple color library for nodejs to colorize things and put some styles to your strings in your terminal. It's a Work-in-progress (WIP).
 
@@ -19,9 +19,9 @@ import clr from 'clr';
 console.log(clr.bold(clr.blue('Hello, colorful world!')))
 ```
 
-### API
+## API
 
-Colors:
+### Colors:
 
 Color       | Applying to text     | Applying to background
 ------------|----------------------|-----------------------
@@ -34,7 +34,7 @@ Color       | Applying to text     | Applying to background
  White      | `clr.white(<str>)`   | `clr.bwhite(<str>)`
  Black      | `clr.black(<str>)`   | `clr.bblack(<str>)`
 
-Special Text Formatting
+### Special Text Formatting
 
 Text Formatting | Method 
 ----------------|--------
@@ -43,7 +43,7 @@ Text Formatting | Method
  Dark text      | `clr.darky(<str>)`
  Stroke         | `clr.stroke(<str>)`
 
- ### Applying Special formatting in colored texts:
+### Applying Special formatting in colored texts:
 
 ```js
 let stringy = 'My colorful string.';
