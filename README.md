@@ -50,5 +50,5 @@ let stringy = 'My colorful string.';
 
 console.log( clr.bold(clr.blue(stringy)) ) // Bold and blue text;
 console.log( clr.bold(clr.uline(clr.magenta(stringy))) ) // Bold, underlined magenta-colored text;
-console.log( clr.bwrite(clr.black(stringy)) ) // White background with black text;
+console.log( clr.bwhite(clr.black(stringy)) ) // White background with black text;
 ```
