@@ -1,11 +1,10 @@
 {
   "name": "clr-js",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "The dead-simple terminal colors for Node.js.",
   "main": "lib/clr.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",

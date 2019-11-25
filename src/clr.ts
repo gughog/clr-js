@@ -73,7 +73,7 @@ const clr = {
   stroke:   (colorstr:string):string => `${colorStroke[0]}${colorstr}${colorStroke[1]}`
 };
 
-export default clr;
+export = clr;
 
 /*
 TODO:
