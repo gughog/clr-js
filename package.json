@@ -1,6 +1,6 @@
 {
   "name": "clr-js",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "The dead-simple terminal colors for Node.js.",
   "main": "lib/clr.js",
   "types": "lib/index.d.ts",
@@ -9,15 +9,15 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gughog/clr.git"
+    "url": "git+https://github.com/gughog/clr-js.git"
   },
   "keywords": [
     "colors",
@@ -30,9 +30,9 @@
   "author": "gughog",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gughog/clr/issues"
+    "url": "https://github.com/gughog/clr-js/issues"
   },
-  "homepage": "https://github.com/gughog/clr#readme",
+  "homepage": "https://github.com/gughog/clr-js#readme",
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "jest": "^24.9.0",
