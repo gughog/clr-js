@@ -6,14 +6,18 @@ Clr is a dead simple color library for nodejs to colorize things and put some st
 
 ### Installation
 
-(WIP)
+* With NPM:
+`npm install clr-js`
+
+* With Yarn:
+`yarn add clr-js`
 
 ### Usage
 
 To use in your Javascript/Typescript file:
 
 ```js
-import clr from 'clr';
+import clr from 'clr-js';
 
 // A bold and blue text will be shown in your terminal!
 console.log(clr.bold(clr.blue('Hello, colorful world!')))
