@@ -2,6 +2,10 @@
 
 Clr is a dead simple color library for nodejs to colorize things and put some styles to your strings in your terminal. It's a Work-in-progress (WIP).
 
+Actually clr-js is just a project for fun, to learn new things and play with some nice features of the world of development. If you have a better approach to this, please, contribute! Or if you just want to install to create your terminal based apps, feel free to do it.
+
+This is my first open-source contribution, so if you find any errors, bugs or something bad, please report and let's learn together. :smile:
+
 ## Getting started
 
 ### Installation
