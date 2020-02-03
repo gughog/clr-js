@@ -1,6 +1,5 @@
 /testfiles
 node_modules
 /lib
-.prettierrc
 clr.js
-test.ts
+drafts

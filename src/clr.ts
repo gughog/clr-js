@@ -97,7 +97,7 @@ const clr = {
    * @function
    * @param {string} colorstr - The desired colorized string to apply the formatting.
    */
-  bold(colorstr: string = this.result): string {
+  bold(colorstr: string = this.result) {
     this.result = SPECIALS.colorBolds[0] + colorstr + SPECIALS.colorBolds[1];
     return this;
   },

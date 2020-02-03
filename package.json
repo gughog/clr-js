@@ -1,6 +1,6 @@
 {
   "name": "clr-js",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "The dead-simple terminal colors for Node.js.",
   "main": "lib/clr.js",
   "types": "lib/index.d.ts",
@@ -9,6 +9,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "autoformat": "tslint --fix src/**/*.ts -t verbose",
+    "test": "jest --config jestconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
