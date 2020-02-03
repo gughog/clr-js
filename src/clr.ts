@@ -17,35 +17,35 @@ const clr = {
    * @function
    * @param {string} str - The desired string to apply the color.
    */
-  black: function(str: string = this.result) {
+  black(str: string = this.result) {
     this.result = COLORS.colorBlack[0] + str + COLORS.colorBlack[1];
     return this;
   },
-  blue: function(str: string = this.result) {
+  blue(str: string = this.result) {
     this.result = COLORS.colorBlue[0] + str + COLORS.colorBlue[1];
     return this;
   },
-  cyan: function(str: string = this.result) {
+  cyan(str: string = this.result) {
     this.result = COLORS.colorCyan[0] + str + COLORS.colorCyan[1];
     return this;
   },
-  green: function(str: string = this.result) {
+  green(str: string = this.result) {
     this.result = COLORS.colorGreen[0] + str + COLORS.colorGreen[1];
     return this;
   },
-  magenta: function(str: string = this.result) {
+  magenta(str: string = this.result) {
     this.result = COLORS.colorMagenta[0] + str + COLORS.colorMagenta[1];
     return this;
   },
-  red: function(str: string = this.result) {
+  red(str: string = this.result) {
     this.result = COLORS.colorRed[0] + str + COLORS.colorRed[1];
     return this;
   },
-  white: function(str: string = this.result) {
+  white(str: string = this.result) {
     this.result = COLORS.colorWhite[0] + str + COLORS.colorWhite[1];
     return this;
   },
-  yellow: function(str: string = this.result) {
+  yellow(str: string = this.result) {
     this.result = COLORS.colorYellow[0] + str + COLORS.colorYellow[1];
     return this;
   },
@@ -57,35 +57,35 @@ const clr = {
    * @function
    * @param {string} str - The desired string to apply the background color.
    */
-  bblack: function(str: string = this.result) {
+  bblack(str: string = this.result) {
     this.result = BCOLORS.colorBBlack[0] + str + BCOLORS.colorBBlack[1];
     return this;
   },
-  bblue: function(str: string = this.result) {
+  bblue(str: string = this.result) {
     this.result = BCOLORS.colorBBlue[0] + str + BCOLORS.colorBBlue[1];
     return this;
   },
-  bcyan: function(str: string = this.result) {
+  bcyan(str: string = this.result) {
     this.result = BCOLORS.colorBCyan[0] + str + BCOLORS.colorBCyan[1];
     return this;
   },
-  bgreen: function(str: string = this.result) {
+  bgreen(str: string = this.result) {
     this.result = BCOLORS.colorBGreen[0] + str + BCOLORS.colorBGreen[1];
     return this;
   },
-  bmagenta: function(str: string = this.result) {
+  bmagenta(str: string = this.result) {
     this.result = BCOLORS.colorBMagenta[0] + str + BCOLORS.colorBMagenta[1];
     return this;
   },
-  bred: function(str: string = this.result) {
+  bred(str: string = this.result) {
     this.result = BCOLORS.colorBRed[0] + str + BCOLORS.colorBRed[1];
     return this;
   },
-  bwhite: function(str: string = this.result) {
+  bwhite(str: string = this.result) {
     this.result = BCOLORS.colorBWhite[0] + str + BCOLORS.colorBWhite[1];
     return this;
   },
-  byellow: function(str: string = this.result) {
+  byellow(str: string = this.result) {
     this.result = BCOLORS.colorBYellow[0] + str + BCOLORS.colorBYellow[1];
     return this;
   },
@@ -97,19 +97,19 @@ const clr = {
    * @function
    * @param {string} colorstr - The desired colorized string to apply the formatting.
    */
-  bold: function(colorstr: string = this.result): string {
+  bold(colorstr: string = this.result): string {
     this.result = SPECIALS.colorBolds[0] + colorstr + SPECIALS.colorBolds[1];
     return this;
   },
-  darky: function(colorstr: string = this.result) {
+  darky(colorstr: string = this.result) {
     this.result = SPECIALS.colorDarky[0] + colorstr + SPECIALS.colorDarky[1];
     return this;
   },
-  stroke: function(colorstr: string = this.result) {
+  stroke(colorstr: string = this.result) {
     this.result = SPECIALS.colorStroke[0] + colorstr + SPECIALS.colorStroke[1];
     return this;
   },
-  uline: function(colorstr: string = this.result) {
+  uline(colorstr: string = this.result) {
     this.result = SPECIALS.colorUnderline[0] + colorstr + SPECIALS.colorUnderline[1];
     return this;
   },
