@@ -1,8 +1,6 @@
 /testfiles
 node_modules
 /lib
-tsconfig.json
-tslint.json
 .prettierrc
 clr.js
 test.ts
