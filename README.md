@@ -110,7 +110,7 @@ console.log(
 ---
 ---
 
-## The above guide refers to the old version of Clr-js, and is not compatible with 1.0.0!
+## The guide bellow refers to the old version of Clr-js, and is not compatible with 1.0.0!
 
 ### Usage (ver. 0.1.7 and bellow only)
 
